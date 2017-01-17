@@ -1,5 +1,5 @@
 <?php
-namespace Pedanticantic\VerifoneOcius\Message;
+namespace Reckless\VerifoneOcius\Message;
 
 use SimpleXMLElement;
 use Omnipay\Common\Message\AbstractRequest;

@@ -1,5 +1,5 @@
 <?php
-namespace Pedanticantic\VerifoneOcius\Message;
+namespace Reckless\VerifoneOcius\Message;
 
 /**
  * Verifone Complete Purchase Request

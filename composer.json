@@ -1,5 +1,5 @@
 {
-  "name": "jessicadigital/omnipay-verifone-ocius",
+  "name": "brynj-digital/omnipay-verifone-ocius",
   "type": "library",
   "description": "Verifone (Ocius) driver for the Omnipay payment processing library",
   "keywords": [
@@ -12,7 +12,7 @@
     "pay",
     "payment"
   ],
-  "homepage": "https://github.com/coatesap/omnipay-verifone-ocius",
+  "homepage": "https://github.com/brynj-digital/omnipay-verifone-ocius",
   "license": "MIT",
   "authors": [
     {
@@ -24,10 +24,15 @@
       "name": "Glenn Jenkins",
       "email": "pedanticantic@gmail.com",
       "role": "Developer"
+    },
+    {
+      "name": "Bryn Jones",
+      "email": "bryn.jones@reckless.agency",
+      "role": "Developer"
     }
   ],
   "autoload": {
-    "psr-4": { "Pedanticantic\\VerifoneOcius\\" : "src/" }
+    "psr-4": { "Reckless\\VerifoneOcius\\" : "src/" }
   },
   "require": {
     "omnipay/common": "~2.0"

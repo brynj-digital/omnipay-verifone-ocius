@@ -1,8 +1,8 @@
 <?php
-namespace Pedanticantic\VerifoneOcius;
+namespace Reckless\VerifoneOcius;
 
-use Pedanticantic\VerifoneOcius\Message\CompletePurchaseRequest;
-use Pedanticantic\VerifoneOcius\Message\PurchaseRequest;
+use Reckless\VerifoneOcius\Message\CompletePurchaseRequest;
+use Reckless\VerifoneOcius\Message\PurchaseRequest;
 use Omnipay\Common\AbstractGateway;
 
 /**
@@ -186,7 +186,7 @@ class Gateway extends AbstractGateway
     public function purchase(array $parameters = array())
     {
         return $this->createRequest(
-            '\Pedanticantic\VerifoneOcius\Message\PurchaseRequest',
+            '\Reckless\VerifoneOcius\Message\PurchaseRequest',
             $parameters
         );
     }
@@ -194,7 +194,7 @@ class Gateway extends AbstractGateway
     public function completePurchase(array $parameters = array())
     {
         return $this->createRequest(
-            '\Pedanticantic\VerifoneOcius\Message\CompletePurchaseRequest',
+            '\Reckless\VerifoneOcius\Message\CompletePurchaseRequest',
             $parameters
         );
     }

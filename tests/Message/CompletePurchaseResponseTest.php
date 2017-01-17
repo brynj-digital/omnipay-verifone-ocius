@@ -1,6 +1,6 @@
 <?php
 
-namespace Pedanticantic\VerifoneOcius\Message;
+namespace Reckless\VerifoneOcius\Message;
 
 use Omnipay\Tests\TestCase;
 
